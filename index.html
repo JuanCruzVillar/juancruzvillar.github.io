@@ -37,7 +37,7 @@
     <header id="inicio">
         <div class="container">
             <h1>Juan Cruz Villar</h1>
-            <p>Desarrollador .NET </p>
+            <p>Desarrollador Full Stack .NET | React | TypeScript</p>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/juancruzvillar/" target="_blank" title="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
@@ -60,10 +60,11 @@
         <div class="container">
             <h2 class="section-title">Sobre mí</h2>
             <p>
-                Soy un Desarrollador .NET con experiencia practica en aplicaciones web, aplicando el patrón MVC, 
-                C#, SQL Server y Entity Framework. Me encuentro constantemente practicando y aprendiendo de manera autonoma, aplicando 
-                buenas prácticas de desarrollo y patrones de diseño. Busco mi primera oportunidad profesional como 
-                desarrollador para seguir creciendo y para aportar valor a un equipo.
+                Soy un Desarrollador Full Stack .NET con experiencia práctica en aplicaciones web completas, 
+                tanto en backend (.NET, C#, SQL Server, Entity Framework, Clean Architecture) como en frontend
+                (React, TypeScript, Tailwind CSS). Me encuentro constantemente practicando y aprendiendo de manera autónoma, 
+                aplicando buenas prácticas de desarrollo y patrones de diseño. Busco mi primera oportunidad profesional 
+                como desarrollador para seguir creciendo y aportar valor a un equipo.
             </p>
         </div>
     </section>
@@ -105,6 +106,24 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery">
                     <p>jQuery</p>
                 </div>
+               
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                    <p>TypeScript</p>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS">
+                    <p>Tailwind CSS</p>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                    <p>Docker</p>
+                </div>
+               
                 <div class="tech-item">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
                     <p>Git</p>
@@ -129,6 +148,131 @@
     <section class="project" id="proyectos">
         <div class="container">
             <h2 class="section-title">Mis Proyectos</h2>
+            
+            
+            <div class="project-card" style="margin-bottom: 60px;">
+                <div class="project-header">
+                    <h3>🩺 TurnosApp - Sistema de Gestión de Turnos Médicos</h3>
+                    <p>Aplicación fullstack profesional con Clean Architecture | Backend .NET 9 + Frontend React 19 TypeScript</p>
+                </div>
+                <div class="project-content">
+                    <p>
+                        Sistema completo de gestión de turnos médicos que permite a pacientes reservar citas, 
+                        a profesionales gestionar sus horarios y a administradores supervisar todo el sistema. 
+                    </p>
+
+                    <div class="tech-stack">
+                        <span class="tech-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                            .NET 9.0 Web API
+                        </span>
+                        <span class="tech-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                            React 19.2
+                        </span>
+                        <span class="tech-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                            TypeScript 5.9
+                        </span>
+                        <span class="tech-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL Server" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                            SQL Server
+                        </span>
+                        <span class="tech-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                            Tailwind CSS
+                        </span>
+                        <span class="tech-badge">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px;">
+                            Docker
+                        </span>
+                    </div>
+
+                    <div class="features">
+                        <h4>✨ Características Principales</h4>
+                        <div class="feature-grid">
+                            <div class="feature-item">
+                                <h5>🔐 Autenticación JWT</h5>
+                                <p>Sistema completo con roles (Admin, Professional, Patient), tokens y autorización </p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>🏗️ Clean Architecture</h5>
+                                <p>Separación de responsabilidades: Domain, Application, Infrastructure y API</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>📅 Gestión de Turnos</h5>
+                                <p>Reserva, cancelación y seguimiento de turnos con validación de disponibilidad horaria</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>⚡ Frontend Moderno</h5>
+                                <p>SPA con React 19, TypeScript, React Query para cache inteligente y Zustand para estado global</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>📊 Panel Profesional</h5>
+                                <p>Los profesionales gestionan horarios semanales y actualizan estados de turnos</p>
+                            </div>
+                            <div class="feature-item">
+                                <h5>🎨 UI Responsive</h5>
+                                <p>Diseño mobile-first con Tailwind CSS, optimizado para todos los dispositivos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features">
+                        <h4>🎯 Qué aprendí y apliqué en este proyecto:</h4>
+                        <ul>
+                            <li>✓ Clean Architecture con separación de Domain, Application, Infrastructure y Presentation</li>
+                            <li>✓ Diseño de API REST completa con DTOs y documentación Swagger/OpenAPI</li>
+                            <li>✓ Autenticación JWT con roles y autorización basada en políticas</li>
+                            <li>✓ Entity Framework Core con Code First, migraciones y relaciones complejas</li>
+                            <li>✓ React 19 con TypeScript para type-safety completo en frontend</li>
+                            <li>✓ Gestión de estado con React Query (servidor) y Zustand (global)</li>
+                            <li>✓ Containerización con Docker y CI/CD con GitHub Actions</li>
+                        </ul>
+                    </div>
+
+                    <div class="screenshots">
+                        <h4>📸 Capturas del Proyecto</h4>
+                        <div class="screenshot-grid">
+                            <div class="screenshot-item">
+                                <img src="URL_SCREENSHOT_HOME" alt="Home TurnosApp">
+                                <div class="screenshot-label">Página Principal</div>
+                            </div>
+                            <div class="screenshot-item">
+                                <img src="URL_SCREENSHOT_ESPECIALIDADES" alt="Especialidades">
+                                <div class="screenshot-label">Especialidades Médicas</div>
+                            </div>
+                            <div class="screenshot-item">
+                                <img src="URL_SCREENSHOT_RESERVA" alt="Reserva de Turno">
+                                <div class="screenshot-label">Sistema de Reserva</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/JuanCruzVillar/TurnosApp" 
+                           target="_blank" 
+                           class="btn btn-primary">
+                            📂 Backend - Ver en GitHub
+                        </a>
+                        <a href="https://github.com/JuanCruzVillar/TurnosApp-Frontend" 
+                           target="_blank" 
+                           class="btn btn-primary">
+                            📂 Frontend - Ver en GitHub
+                        </a>
+                        <a href="https://github.com/JuanCruzVillar/TurnosApp#readme" 
+                           target="_blank" 
+                           class="btn btn-secondary">
+                            📖 Documentación Completa
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+            
+
+            
             <div class="project-card">
                 <div class="project-header">
                     <h3>🖥️ Hardware Store - eCommerce</h3>
